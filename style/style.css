@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url("../images/Wallpaper [Beach].jpg") fixed center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 7vh;
+  background: #063cb8;
+}
+
+.logo {
+  color: #fff7ec;
+  letter-spacing: 4.5px;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: beige;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: beige;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1050px) {
+  .nav-links {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0;
+    top: 7vh;
+    height: 93vh;
+    background: #063cb8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+  }
+  .link1 {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+    -webkit-transition: 1s ease-in;
+    transition: 1s ease-in;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+  }
+  .link2 {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+    -webkit-transition: 1.05s ease-in;
+    transition: 1.05s ease-in;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+  }
+  .link3 {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+    -webkit-transition: 1.1s ease-in;
+    transition: 1.1s ease-in;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+  }
+  .link4 {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+    -webkit-transition: 1.15s ease-in;
+    transition: 1.15s ease-in;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.nav-visual {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.link-visual {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.toggle .line1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+          transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  -webkit-transform: rotate(45deg) translate(5px, -6px) translateY(-1px) translateX(-9.5px);
+          transform: rotate(45deg) translate(5px, -6px) translateY(-1px) translateX(-9.5px);
+}
+/*# sourceMappingURL=style.css.map */
