@@ -5,7 +5,15 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: url("../images/Wallpaper\ [Beach].jpg") fixed center;
+  background: linear-gradient(
+    -45deg,
+    rgb(160, 160, 160),
+    rgb(12, 76, 187),
+    rgb(131, 214, 83),
+    rgb(131, 214, 83),
+    rgb(12, 76, 187),
+    rgb(160, 160, 160)
+  );
 }
 nav {
   display: flex;

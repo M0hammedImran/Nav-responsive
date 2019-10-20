@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url("../images/Wallpaper [Beach].jpg") fixed center;
+  background: linear-gradient(-45deg, #a0a0a0, #0c4cbb, #83d653, #83d653, #0c4cbb, #a0a0a0);
 }
 
 nav {
